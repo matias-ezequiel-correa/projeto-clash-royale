@@ -1,0 +1,38 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .royale {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #0092eddf;
+    color: #FFFFFF;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    min-height: 70px;
+    box-shadow: 6px 6px 5px #00000093;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #000;
+}
+
+.listagem .royale:hover{
+    transform: scale(1.05);
+}
+
+.listagem .royale img {
+    width: 30%;
+    border-radius: 20%;
+}
+
+.listagem .royale span {
+    padding-right: 20px;
+    text-shadow: 1px 1px 6px #000;
+}
+
+.listagem .royale.ativo {
+    background-color: #febe00e7;
+}

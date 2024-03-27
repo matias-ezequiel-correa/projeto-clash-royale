@@ -1,0 +1,64 @@
+@media (max-width: 750px) {
+    body {
+        font-size: 12px;
+    }
+
+    .clash-royale {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .cartao-royale {
+        max-width: 330px;
+    }
+
+    .cartao-royale .cartao-imagem {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cartao-royale .cartao-informacoes {
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .cartao-royale .cartao-informacoes h3 {
+        font-size: 16px;
+    }
+
+    .listagem {
+        max-width: 300px;
+    }
+
+    .listagem ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .listagem .royale {
+        width: 140px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .listagem .royale span {
+        padding-right: 5px;
+    }
+
+    .menu-lateral {
+        min-height: auto;
+        margin-top: 5px;
+    }
+
+    .menu-lateral ul {
+        flex-direction: row;
+    }
+
+    .menu-lateral .icone {
+        width: 20px;
+    }
+}
