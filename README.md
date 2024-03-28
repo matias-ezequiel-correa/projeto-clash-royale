@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="./src/imagens/logo-de-clash-royale.png" width="200" />
+  <img alt="Logo" src="./src/imagens/logo-de-clash-royale.png" width="200"/>
 </div>
 <h1 align="center">
   Matías Ezequiel Correa - Projeto "Clash Royale" ⚔👑
